@@ -10,4 +10,4 @@ def right_triangle(n):
         
         print("")
 
-right_triangle(10)
+right_triangle(5)
