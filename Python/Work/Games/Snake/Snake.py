@@ -9,26 +9,34 @@ class Snake:
         self.block = pygame.image.load("Snake.png").convert()
         self.x = 100
         self.y = 100
-        
+        self.direction = '' #this function is to help determine which way it will continue to move.
     def draw(self):
         self.parent_screen.fill((110,110,5)) #color assignment
         self.parent_screen.blit(self.block,(self.x,self.y))
         pygame.display.flip()
         
+    #Everything below to Game is to help change the direction of the snake.
     def move_up(self):
-        self.y -= 10
-        self.draw()
+        self.direction = 'up'
         
     def move_down(self):
-        self.y += 10
-        self.draw()    
+        self.direction = 'down'
         
     def move_left(self):
-        self.x -= 10
-        self.draw()    
+        self.direction = 'left'
         
     def move_right(self):
-        self.x += 10
+        self.direction = 'right'
+        
+    def walk(self):
+        if self.direction == 'up':
+           self.y -= 10
+        if self.direction == 'down':
+           self.y += 10
+        if self.direction == 'left':
+           self.x -= 10
+        if self.direction == 'right':
+           self.x += 10
         self.draw()
        
 class Game:
@@ -59,9 +67,10 @@ class Game:
                         self.snake.move_right()
                 elif event.type == QUIT:
                     running = False
+            self.snake.walk()
+            time.sleep(.1) #this will say how fast it will go across the screen.
             pass
     
 if __name__ == "__main__":
     game = Game()
     game.run()
-    
