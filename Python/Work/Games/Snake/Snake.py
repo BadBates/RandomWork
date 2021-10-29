@@ -38,11 +38,15 @@ class Snake:
         if self.direction == 'right':
            self.x += 10
         self.draw()
-       
+
+class Mouse:
+    def __init__(self, parent_screen):
+        pass
+        
 class Game:
     def __init__(self):
         pygame.init()
-        self.surface = pygame.display.set_mode((1920,1080))#screen size
+        self.surface = pygame.display.set_mode((1820,980))#screen size
         self.snake = Snake(self.surface)
         self.snake.draw()
         
