@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RandomWork\\C#\\RPS\\RPS\\RPS.csproj",
+      "projectUniqueName": "D:\\RandomWork\\C#\\RPS\\RPS\\RPS.csproj",
       "projectName": "RPS",
-      "projectPath": "C:\\RandomWork\\C#\\RPS\\RPS\\RPS.csproj",
+      "projectPath": "D:\\RandomWork\\C#\\RPS\\RPS\\RPS.csproj",
       "packagesPath": "C:\\Users\\bates\\.nuget\\packages\\",
-      "outputPath": "C:\\RandomWork\\C#\\RPS\\RPS\\obj\\",
+      "outputPath": "D:\\RandomWork\\C#\\RPS\\RPS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
