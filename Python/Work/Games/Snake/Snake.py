@@ -12,7 +12,7 @@ class Snake:
         self.image = pygame.image.load("Snake.png").convert()
         self.x = [Size] * length
         self.y = [Size] * length
-        self.direction = '' #this function is to help determine which way it will continue to move.
+        self.direction = '' #this function is to help determine which way it will continue to move. leaving it blank will allow the user to choose the first direction
     def draw(self):
         self.parent_screen.fill((110,110,5)) #color assignment
         
@@ -56,12 +56,12 @@ class Mouse:
     def __init__(self, parent_screen):
         self.image = pygame.image.load("Mouse.png").convert()
         self.parent_screen = parent_screen
-        self.x = Size
-        self.y = Size
+        self.x = random.randint(1, 1818) 
+        self.y = random.randint(1, 978) 
         
     def move(self):
-        self.x = random.randint(1, 40) * Size
-        self.y = random.randint(1, 40) * Size
+        self.x = random.randint(1, 1818) 
+        self.y = random.randint(1, 978) 
         
     def draw(self):
         self.parent_screen.blit(self.image, (self.x, self.y))
@@ -89,6 +89,12 @@ class Game:
         if self.is_collision(self.snake.x[0], self.snake.y[0], self.mouse.x, self.mouse.y):
             self.snake.adding_length()
             self.mouse.move()    
+            
+        for i in range(1,self.snake.length):
+            if self.is_collision(self.snake.x[0], self.snake.y[0],self.snake.x[i],self.snake.y[i]):
+                print("GameOVER")
+                exit(0)
+    
     def run(self):    #game loop
         running = True
     
