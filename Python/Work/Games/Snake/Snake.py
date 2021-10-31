@@ -60,8 +60,8 @@ class Mouse:
         self.y = Size
         
     def move(self):
-        self.x = random.randint(1, 45) * Size
-        self.y = random.randint(1, 45) * Size
+        self.x = random.randint(1, 40) * Size
+        self.y = random.randint(1, 40) * Size
         
     def draw(self):
         self.parent_screen.blit(self.image, (self.x, self.y))
@@ -77,8 +77,8 @@ class Game:
         self.mouse.draw()
         
     def is_collision(self, x1, y1, x2, y2):
-        if x1 >=  x2 + Size and x1 < x2 + Size:
-            if y1 >= y2 + Size and y1 < y2 + Size:
+        if x1 >=  x2 and x1 < x2 + Size:
+            if y1 >= y2 and y1 < y2 + Size:
                 return True
         return False
     
