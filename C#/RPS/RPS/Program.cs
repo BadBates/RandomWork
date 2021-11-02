@@ -20,7 +20,7 @@ namespace RPS //Rock, Paper, Scissors
                 while (playerScore <= 7 && cpuScore <= 7)
                 {
                     //Player's choice or input
-                    Console.Write("Chooise  between Rock, Paper, and Scissors: ");
+                    Console.Write("Choose  between Rock, Paper, and Scissors: ");
                     pGuess = Console.ReadLine();
                     pGuess = pGuess.ToUpper();
                     
@@ -37,12 +37,12 @@ namespace RPS //Rock, Paper, Scissors
                             else if (pGuess == "Paper")
                             {
                                 playerScore++;
-                                Console.WriteLine("You win this one.", playerScore.ToString());
+                                Console.WriteLine("You win this one.", playerScore.ToString(), ":", playerScore.ToString());
                             }
                             else if (pGuess == "Scissors")
                             {
                                 cpuScore++;
-                                Console.WriteLine("I win this one.", cpuScore.ToString());
+                                Console.WriteLine("I win this one.", cpuScore.ToString(), ":", playerScore.ToString());
                             }
                             break;
                         case 2:
@@ -53,12 +53,12 @@ namespace RPS //Rock, Paper, Scissors
                             else if (pGuess == "Scissors")
                             {
                                 playerScore++;
-                                Console.WriteLine("You win this one.", playerScore.ToString());
+                                Console.WriteLine("You win this one.", playerScore.ToString(), ":", playerScore.ToString());
                             }
                             else if (pGuess == "Rock")
                             {
                                 cpuScore++;
-                                Console.WriteLine("You win this one.", cpuScore.ToString());
+                                Console.WriteLine("You win this one.", cpuScore.ToString(), ":", playerScore.ToString());
                             }
                             break;
                         case 3:
@@ -69,12 +69,12 @@ namespace RPS //Rock, Paper, Scissors
                             else if (pGuess == "Rock")
                             {
                                 playerScore++;
-                                Console.WriteLine("You win this one.", playerScore.ToString());
+                                Console.WriteLine("You win this one.", playerScore.ToString(), ":", playerScore.ToString());
                             }
                             else if (pGuess == "Paper")
                             {
                                 cpuScore++;
-                                Console.WriteLine("I win this one.", cpuScore.ToString());
+                                Console.WriteLine("I win this one.", cpuScore.ToString(),":",playerScore.ToString());
                             }
                             break;
 

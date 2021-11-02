@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c9714b4d-95e0-4192-89a0-7f2e74aafcc5": {
+      "ProjectGuid": "c9714b4d-95e0-4192-89a0-7f2e74aafcc5",
+      "DisplayName": "RPS",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
