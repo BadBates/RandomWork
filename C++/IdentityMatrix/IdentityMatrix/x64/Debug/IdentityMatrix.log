@@ -1,0 +1,3 @@
+﻿  Main.cpp
+D:\RandomWork\C++\IdentityMatrix\IdentityMatrix\Main.cpp(11,35): warning C4305: '=': truncation from 'int' to 'bool'
+D:\RandomWork\C++\IdentityMatrix\IdentityMatrix\Main.cpp(11,35): error C2106: '=': left operand must be l-value

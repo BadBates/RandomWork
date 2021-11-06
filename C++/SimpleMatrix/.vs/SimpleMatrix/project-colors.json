@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0cb8c4cb-078b-4cfd-a07a-41a22c1097e1": {
+      "ProjectGuid": "0cb8c4cb-078b-4cfd-a07a-41a22c1097e1",
+      "DisplayName": "SimpleMatrix",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
