@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ebd443f0-dc81-4ceb-93dc-d15fdfdb2369": {
+      "ProjectGuid": "ebd443f0-dc81-4ceb-93dc-d15fdfdb2369",
+      "DisplayName": "NodejsConsoleApp1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
