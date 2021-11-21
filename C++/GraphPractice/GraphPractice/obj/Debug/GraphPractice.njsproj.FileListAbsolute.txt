@@ -1,0 +1,3 @@
+D:\RandomWork\C++\GraphPractice\GraphPractice\obj\Debug\GraphPractice.njsproj.AssemblyReference.cache
+D:\RandomWork\C++\GraphPractice\GraphPractice\obj\Debug\GraphPractice.njsproj.CoreCompileInputs.cache
+D:\RandomWork\C++\GraphPractice\GraphPractice\bin\Microsoft.NodejsTools.WebRole.dll

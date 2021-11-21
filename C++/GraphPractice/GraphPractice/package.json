@@ -1,0 +1,9 @@
+{
+  "name": "graph-practice",
+  "version": "0.0.0",
+  "description": "GraphPractice",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
