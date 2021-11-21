@@ -1,0 +1,9 @@
+{
+  "name": "fibonacci_sequence",
+  "version": "0.0.0",
+  "description": "Fibonacci_Sequence",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
