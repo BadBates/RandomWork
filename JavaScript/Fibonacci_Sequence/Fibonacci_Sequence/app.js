@@ -34,6 +34,13 @@ console.log(fib2(65)) // 17167680177565
 console.log(fib2(70)) // 190392490709135
 console.log(fib2(1000)) // 4.346655768693743e+208 
 
+
+
+const phi =>{
+		pass
+}
+
+
 function Pause(i) {
     if (i == 5) return;
     setTimeout(function ()
@@ -44,3 +51,8 @@ function Pause(i) {
 }
 
 Pause(1);
+
+
+//fibinachi study.
+//https://www.youtube.com/watch?v=SjSHVDfXHQ4
+//https://www.youtube.com/watch?v=wTlw7fNcO-0
