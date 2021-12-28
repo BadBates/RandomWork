@@ -3,8 +3,8 @@ from Game import *
 
 class Node:
  def __init__(self, x, y, walkable):
-	self.width = 20
-	self.height = 20
+	self.Width = 20
+	self.Height = 20
 	self.margin = 5
 	self.g = None
 	self.f = None
@@ -38,13 +38,13 @@ class Astar:
 	self.green = (0,255,0)
 	self.purple = (255,0,255)
 	self.color = self.white
-	self.width = 20
+	self.Width = 20
 	self.height = 20
 	self.margin = 5
-	self.left = (self.margin + self.width) * x + self.margin
-	self.top = (self.margin + self.height) * y + self.margin
-	self.pos = (x, self.height - y)
-	self.center = (self.left + (self.width/2)), (self.top + (self.height/2))
+	self.left = (self.margin + self.Width) * x + self.margin
+	self.top = (self.margin + self.Height) * y + self.margin
+	self.pos = (x, self.Height - y)
+	self.center = (self.left + (self.Width/2)), (self.top + (self.Height/2))
 	self.parent = None
 	self.walkable = True
 
@@ -99,12 +99,12 @@ class Astar:
 		Node = OPEN
 		west = current.Node - 1
 		east = current.Node + 1
-		north = current.Node - width
-		south = current.Node + width
-		northwest = current.Node - width - 1
-		northeast = current.Node - width + 1
-		southwest = current.Node + width - 1
-		southeast = current.Node + width + 1
+		north = current.Node - Width
+		south = current.Node + Width
+		northwest = current.Node - Width - 1
+		northeast = current.Node - Width + 1
+		southwest = current.Node + Width - 1
+		southeast = current.Node + Width + 1
 		
 		wNode = SearchSpace[west].GScore 
 		eNode = SearchSpace[east].GScore 
