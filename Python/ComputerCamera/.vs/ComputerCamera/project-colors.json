@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5dc3a7b7-48ae-4bd9-9543-d9da0d52cbce": {
+      "ProjectGuid": "5dc3a7b7-48ae-4bd9-9543-d9da0d52cbce",
+      "DisplayName": "ComputerCamera",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
